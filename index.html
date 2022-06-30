@@ -5,55 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html"><b>WebStudio</b></a>
-          </li>
-          <li><a href="#agencja">Agencja2</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+      <section class="menu">
+        <nav class="navigation">
+          <ul>
+            <li class="logo">
+              <a href="index.html"><span class="logo-blue">Web</span>Studio</a>
+            </li>
+            <li><a class="links" href="#agencja">Agencja</a></li>
+            <li><a class="links" href="#portfolio">Portfolio</a></li>
+            <li><a class="links" href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <!-- Link do adresu e-mail  -->
+          <li><a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <!-- Link do numeru telefonu -->
+          <li><a class="contact-tel" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul>
-        <!-- Link do adresu e-mail  -->
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <!-- Link do numeru telefonu -->
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-      <h1>Efektywne rozwiązania dla waszego biznesu</h1>
-      <button type="button">Zamów usługę</button><br />
+      </section>
+      <section class="header">
+        <h1>Efektywne rozwiązania dla waszego biznesu</h1>
+        <button type="button"><span class="button-text">Zamów usługę</span></button><br />
+      </section>
     </header>
     <main>
-      <section>
+      <section class="advantages">
         <ul>
           <li>
-            <h4>Lorem Ipsum</h4>
-            <p>
+            <h4 class="h41">Lorem Ipsum</h4>
+            <p class="tekst1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
-            <p>
+            <h4 class="h42">Lorem Ipsum</h4>
+            <p class="tekst2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
-            <p>
+            <h4 class="h43">Lorem Ipsum</h4>
+            <p class="tekst3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
-            <p>
+            <h4 class="h44">Lorem Ipsum</h4>
+            <p class="tekst4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
@@ -62,7 +67,8 @@
 
         <br />
       </section>
-      <section>
+
+      <section class="ourwork">
         <h2 id="portfolio">Czym się zajmujemy</h2>
         <br />
         <ul>
@@ -88,13 +94,13 @@
         </ul>
         <br /><br />
       </section>
-      <section>
-        <h2 id="agencja">Nasz zespół</h2>
+      <section class="team">
+        <h2 class="team-h" id="agencja">Nasz zespół</h2>
         <br />
 
         <ul>
           <li>
-            <figure>
+            <figure class="team-designer">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/teamproductdesigner.jpg"
@@ -107,7 +113,7 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="team-developer">
               <img
                 src="images/teamfrontednfdeveloper.jpg"
                 alt="Frontend Developer John Doe "
@@ -119,7 +125,7 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="team-marketing">
               <img
                 src="images/teammarketing.jpg"
                 alt="Marketing John Doe "
@@ -131,7 +137,7 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="team-uidesigner">
               <img
                 src="images/teamuidesigner.jpg"
                 alt="UI Designer John Doe "
@@ -144,10 +150,11 @@
         </ul>
       </section>
     </main>
-    <footer id="kontakt">
+    <footer class="foot" id="kontakt">
+      <li class="logo">
+        <a href="index.html"><span class="logo-blue">Web</span>Studio</a>
+      </li>
       <address>
-        <a href="index.html"><b>WebStudio</b></a>
-
         <p>m. Warszawa, Aleje Jerozolimskie 21</p>
         <ul>
           <!-- Link do adresu e-mail  -->
