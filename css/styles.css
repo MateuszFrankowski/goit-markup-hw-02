@@ -97,9 +97,7 @@ body {
   color: var(--project-color-white);
   text-align: center;
 }
-.button-text {
-  color: var(--project-color-white);
-}
+
 .order-button {
   font-family: 'Roboto';
   font-style: normal;
@@ -111,6 +109,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   border-style: none;
+  color: var(--project-color-white);
 }
 .advantages {
   list-style-type: none;
@@ -202,6 +201,8 @@ body {
   background-color: var(--team-backgroud-lumio);
   color: var(--project-color-dark);
   border-style: none;
+  border-radius: 4px;
+  color: var(--project-color-dark);
 }
 .filters-button:hover,
 .filters-button:focus {
